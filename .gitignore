@@ -77,3 +77,22 @@ out/
 # ======================
 uploads/
 media/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Type checking / caches
+.mypy_cache/
+.pytype/
+
+# Packaging / build artifacts
+.eggs/
+pip-wheel-metadata/
+*.egg-info
+.ropeproject/
