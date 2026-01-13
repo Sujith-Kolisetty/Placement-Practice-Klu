@@ -37,19 +37,25 @@ Download and install from:
 1. Open Environment Variables
 2. Edit Path
 3. Add:
+```bash
    C:\mingw64\bin
+   ```
 4. Restart VS Code
 
 ### Step 3: Verify Installation
 
 Open VS Code terminal (`Ctrl + ``) and run:
+```bash
 g++ --version
+```
 If version appears → setup successful ✅
 
 ### Step 4: Run C++ Program
 
+```bash
 g++ filename.cpp
 ./a.exe
+```
 
 
 ------------------------------------------------------
